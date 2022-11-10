@@ -16,7 +16,7 @@ Para executar esse projeto basta baixar os arquivos desse repositório e abrir a
 * preencher arquivo infra/Kubernets,tf - em resource_deployment deve-se indicar qual imagem(container) no seu ecr será utilizada no dploy , para isso deve-se configurar o campo image :
   spec {
         container {
-          image = "caminho da imagem no ecr ou no dockerhub"
+          image = "caminho da imagem no ecr "
           
 *Criar uma imagem docker com uma aplicação django e executar o docker push para o repósitório Ecr criado ou existente na AWS.
 
