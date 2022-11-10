@@ -19,7 +19,7 @@ Para executar esse projeto basta baixar os arquivos desse repositório e abrir a
           image = "caminho da imagem no ecr "
           
 *Criar uma imagem docker executando o comando "docker build . -t producao:v1" no terminal a partir a pasta clientes-leo-api e renomeie a imagem para:
-docker tag 2c0310e69e1c (id da sua conta).dkr.ecr.(regiao escolhida).amazonaws.com/procucao:v1
+docker tag (tag da imagem) (id da sua conta).dkr.ecr.(regiao escolhida).amazonaws.com/procucao:v1
 
 
 *Após efetuar os passos acima abrir um terminal no vs code na pasta Prod e executar terraform init , terraform init -upgrade- ,terraform plan e se não houverem erros usar o comando terraform apply e posteriormente o yes.
