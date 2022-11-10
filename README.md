@@ -3,7 +3,7 @@ Subindo uma infraestutura e uma aplicação(django) com terraform na aws em clus
 
 
 Para executar esse projeto basta baixar os arquivos desse repositório e abrir a pasta no vscode e seguir as instruções abaixo :
-
+* link da api django, dando os devidos creditos ao senhor guilherme, criador da mesma: https://github.com/guilhermeonrails/clientes-leo-api.git 
 *requerimentos: conta AWS, terraform, docker e cli instalados
 
 *Fazer login na aws via CLI -aws configure e preencher os dados com as chaves criadas para seu usuário na aws ou gerar chaves ssh e cadastrar em seu usuario aws na ec2
