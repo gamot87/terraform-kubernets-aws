@@ -20,7 +20,7 @@ Para executar esse projeto basta baixar os arquivos desse repositório e abrir a
           
 *Criar uma imagem docker com uma aplicação django e executar o docker push para o repósitório Ecr criado ou existente na AWS.
 
-*Após efetuar os passos acima abrir um terminal no vs code na pasta Prod e executar terraform init , terraform init -upgrade- ,terraform plan e se não houverem erros terraform apply e yes. 
+*Após efetuar os passos acima abrir um terminal no vs code na pasta Prod e executar terraform init , terraform init -upgrade- ,terraform plan e se não houverem erros usar o comando terraform apply e posteriormente o yes. 
 
 
           
